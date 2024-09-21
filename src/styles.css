@@ -1,0 +1,95 @@
+
+/*************NAV BAR*************/
+
+/* Style for the nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 174, 174);
+    padding: 0px 20px;
+}
+
+nav h2 {
+    color: #fff; 
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #d195e4; 
+    border-radius: 5px; 
+}
+
+/*************HOME PAGE*************/
+
+/************* LOGIN PAGE*************/
+
+
+/* Full height background color */
+body {
+    
+    flex-direction: column;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #b1b1b1;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* Label styling */
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input field styling */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styling */
+form button {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    padding: 10px;
+    background-color: #93cff1; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #4b8697; 
+}
