@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
+        <h2>Botanictails</h2>
         <ul>
             <a href="home.html">Home</a>
             <a href="#Products">Products</a>
             <a href="#Contact">Contact</a>
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
+            <a href="checkout.html">Checkout</a>
         </ul>
     </nav>
     
     <form action="" method="POST">
+        <label for="card-number">Card Number</label>
+        <input type="password" id="card-number" required>
 
+        <label for="exp-date">Expiration Date:</label>
+        <input type="date" id="Exp-date" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="password" id="cvv" required>
+
+        <button type="submit">Confirm Payment</button>
     </form>
 </body>
 </html>
