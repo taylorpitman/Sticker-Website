@@ -8,7 +8,6 @@ nav {
     width: 100%;
     align-items: center;
     background-color: rgb(255, 174, 174);
-    padding: 0px 20px;
 }
 
 nav h2 {
@@ -25,10 +24,17 @@ nav a {
     font-size: 18px;
 }
 
+nav img {
+    width:35px;
+    height: 35px;
+    transform: translateY(10px);
+}
+
 nav a:hover {
     background-color: #d195e4; 
     border-radius: 5px; 
 }
+
 
 /*************HOME PAGE*************/
 
@@ -93,3 +99,5 @@ form button {
 form button:hover {
     background-color: #4b8697; 
 }
+
+
